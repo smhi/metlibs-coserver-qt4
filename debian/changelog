@@ -1,0 +1,95 @@
+metlibs-qt-coserver (2.3.0-3) unstable; urgency=low
+
+  * sysconfdir = /etc
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 27 Oct 2016 08:00:00 +0200
+
+metlibs-qt-coserver (2.3.0-2) unstable; urgency=low
+
+  * revert update of debian/rules
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 27 Oct 2016 08:00:00 +0200
+
+metlibs-qt-coserver (2.3.0-1) unstable; urgency=low
+
+  * configuration via client.ini file
+  * updated debian/rules
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Wed, 26 Oct 2016 08:00:00 +0200
+
+metlibs-qt-coserver (2.2.0-1) unstable; urgency=low
+
+  * server url list
+  * workaround for bug in coserver4 < 5.1.2
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 25 Oct 2016 08:00:00 +0200
+
+metlibs-qt-coserver (2.1.0-1) unstable; urgency=low
+
+  * replace client rename dialog
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 26 May 2016 08:00:00 +0200
+
+metlibs-qt-coserver (2.0.5-1) unstable; urgency=low
+
+  * minor improvements to CoClient class
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 12 Apr 2016 14:00:00 +0200
+
+metlibs-qt-coserver (2.0.4-1) unstable; urgency=low
+
+  * added header with version info
+  * do not install xpm files
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 10 Mar 2016 14:00:00 +0100
+
+metlibs-qt-coserver (2.0.2-2) unstable; urgency=low
+
+  * fix+update debian/control Depends
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 25 Feb 2016 09:00:09 +0100
+
+metlibs-qt-coserver (2.0.2-1) unstable; urgency=low
+
+  * show client id in rename action
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 11 Jan 2016 09:00:09 +0100
+
+metlibs-qt-coserver (2.0.1-1) unstable; urgency=low
+
+  * bugfixes
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Fri, 8 Jan 2016 09:00:09 +0100
+
+metlibs-qt-coserver (2.0.0-1) unstable; urgency=low
+
+  * introduce miQMessage, miMessageIO
+  * new protocol, detect old / new protocol
+  * added support for peer selection
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 17 Dec 2015 09:00:09 +0100
+
+metlibs-qt-coserver (1.1.0-2) unstable; urgency=low
+
+  * ClientButton can re-use existing CoClient object
+  * use METLIBS_LOG_* macros for logging
+
+ -- Alexander Carl Friedrich Bürger <alexander.buerger@met.no>  Mon, 17 Feb 2014 13:17:43 +0100
+
+metlibs-qt-coserver (1.0.1-1) unstable; urgency=low
+
+  * fixed pkg-config file
+
+ -- Alexander Carl Friedrich Bürger <alexander.buerger@met.no>  Thu, 06 Feb 2014 11:15:32 +0100
+
+metlibs-qt-coserver (1.0.0-2) unstable; urgency=low
+
+  * fixed dependencies
+
+ -- Lisbeth Bergholt <lisbeth.bergholt@met.no>  Tue, 04 Feb 2014 20:47:22 +0100
+
+metlibs-qt-coserver (1.0.0-1) unstable; urgency=low
+
+  * Split from all-in-one metlibs
+
+ -- Lisbeth Bergholt <lisbeth.bergholt@met.no>  Mon, 03 Feb 2014 11:44:12 +0100
